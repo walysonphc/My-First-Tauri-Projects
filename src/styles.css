@@ -1,0 +1,50 @@
+:root{
+  font-family: "Noto Sans Mono", monospace;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color: #F2F2F2;
+  background-color: #1C1F26;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.container {
+  margin: 0;
+  padding: 60px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+  flex-direction: column;
+}
+
+.container .areatext {
+  height: 400px;
+}
+
+.button {
+  background-color: #ffffff;
+  color: #1C1F26;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button:hover {
+  color: #ffffff;
+  background-color: #e0e0e0;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
